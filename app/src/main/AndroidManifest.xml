@@ -1,0 +1,63 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ca.gbc.comp3074.restaurantguide">
+
+    <!-- Required Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.RestaurantGuide">
+
+        <!-- Splash Activity -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <!-- Add/Edit Restaurant Activity -->
+        <activity
+            android:name=".AddEditRestaurantActivity"
+            android:exported="true" />
+
+        <!-- Details Activity -->
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="true" />
+
+        <!-- About Activity -->
+        <activity
+            android:name=".AboutActivity"
+            android:exported="true" />
+
+        <!-- Restaurant List Activity -->
+        <activity
+            android:name=".RestaurantListActivity"
+            android:exported="true" />
+
+        <!-- Full-Screen Map Activity -->
+        <activity
+            android:name=".FullScreenMapActivity"
+            android:exported="true" />
+
+        <!-- Google Maps API Key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+    </application>
+</manifest>

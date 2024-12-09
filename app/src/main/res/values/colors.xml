@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary and Secondary Colors -->
+    <color name="primary">#037ffc</color> <!-- Primary Blue -->
+    <color name="orange">#FFA726</color> <!-- Light Orange -->
+
+    <!-- Background and Text Colors -->
+    <color name="black">#000000</color> <!-- Black -->
+    <color name="white">#FFFFFF</color> <!-- White -->
+    <color name="colorBackground">#FFFFFF</color> <!-- Background White -->
+</resources>

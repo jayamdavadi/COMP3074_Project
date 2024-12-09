@@ -1,0 +1,48 @@
+<resources>
+    <!-- Application Name -->
+    <string name="app_name">Restaurant Guide</string>
+
+    <!-- Main Menu Options -->
+    <string name="add_restaurant">Add Restaurant</string>
+    <string name="view_restaurants">View Restaurants</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="show_restaurant_on_map">Show Restaurant on Map</string>
+    <string name="search_nearby_restaurants">Search Nearby Restaurants</string>
+
+    <!-- Form Labels -->
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="description">Description</string>
+    <string name="tags">Tags</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
+
+    <!-- Rating Filter Options -->
+    <string-array name="rating_filter_options">
+        <item>All Ratings</item>
+        <item>5 Stars</item>
+        <item>4 Stars &amp; Above</item>
+        <item>3 Stars &amp; Above</item>
+    </string-array>
+
+    <!-- Tag Filter Options -->
+    <string-array name="tag_filter_options">
+        <item>All Tags</item>
+        <item>Italian</item>
+        <item>Pizza</item>
+        <item>Asian</item>
+        <item>Fast Food</item>
+    </string-array>
+
+    <string name="restaurant_added_successfully">Restaurant added successfully!</string>
+    <string name="restaurant_not_found">Restaurant not found!</string>
+    <string name="invalid_restaurant_id">Invalid restaurant ID!</string>
+    <string name="search_hint">Search restaurants by name or tags</string>
+
+    <string name="address_not_available">Address not available!</string>
+    <string name="google_maps_not_installed">Google Maps app is not installed!</string>
+    <string name="unable_to_open_maps">Unable to open maps: %1$s</string>
+    <string name="unable_to_get_directions">Unable to get directions: %1$s</string>
+</resources>

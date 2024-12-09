@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/aboutTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Restaurant Guide App is a simple and user-friendly mobile application that helps users explore various dining options in their area. It provides a curated list of restaurants with details such as name, description, and ratings, allowing users to discover new places to eat. Users can also add their favorite restaurants to the list, view detailed information about each restaurant, and easily navigate through the available options. Whether you're looking for a fine dining experience or a casual meal, this app offers a convenient way to find the perfect place to satisfy your cravings."
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/about_team_members"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

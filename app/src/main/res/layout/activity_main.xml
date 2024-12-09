@@ -1,0 +1,88 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/img">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAddRestaurant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Restaurant"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_gradient_with_border"
+            android:elevation="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnViewRestaurants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Restaurants"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_gradient_with_border"
+            android:elevation="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnShowRestaurantLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Restaurant on Map"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_gradient_with_border"
+            android:elevation="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSearchNearby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Nearby Restaurants"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_gradient_with_border"
+            android:elevation="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_gradient_with_border"
+            android:elevation="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_gradient_with_border"
+            android:elevation="8dp" />
+    </LinearLayout>
+</ScrollView>
